@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: jonathan
+  api_key: '745725176797224'
+  api_secret: qT8FgOflDKEFCnzIQdv3f-_QjZ4
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: jonathan
+  api_key: '745725176797224'
+  api_secret: qT8FgOflDKEFCnzIQdv3f-_QjZ4
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: jonathan
+  api_key: '745725176797224'
+  api_secret: qT8FgOflDKEFCnzIQdv3f-_QjZ4
+  enhance_image_tag: true
+  static_image_support: false

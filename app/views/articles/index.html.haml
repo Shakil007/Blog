@@ -1,0 +1,12 @@
+- @articles.each do |article|
+	
+	%h2= link_to article.title, article
+	= link_to (image_tag article.image.url.to_s), article
+	</br>
+	= article.content
+	</br></br>
+	%p= raw article.tag_list.map { |t| link_to t, tag_path(t) }.join(', ')
+
+	</br></br></br>
+
+%h2= link_to "Add New Article", new_article_path
